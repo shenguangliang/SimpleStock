@@ -1,0 +1,4 @@
+SimpleStock
+===========
+
+SimpleStock with CoreData
