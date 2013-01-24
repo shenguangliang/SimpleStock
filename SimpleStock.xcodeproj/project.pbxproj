@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9CFFC916AE6EAA00D45F74 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9CFFC816AE6EAA00D45F74 /* Stock.m */; };
+		FC9CFFCD16AE701A00D45F74 /* SSStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9CFFCC16AE701A00D45F74 /* SSStockViewController.m */; };
+		FCD31A7616AE682200C9F7A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7516AE682200C9F7A1 /* UIKit.framework */; };
+		FCD31A7816AE682200C9F7A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7716AE682200C9F7A1 /* Foundation.framework */; };
+		FCD31A7A16AE682200C9F7A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7916AE682200C9F7A1 /* CoreGraphics.framework */; };
+		FCD31A7C16AE682200C9F7A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7B16AE682200C9F7A1 /* CoreData.framework */; };
+		FCD31A8216AE682200C9F7A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD31A8016AE682200C9F7A1 /* InfoPlist.strings */; };
+		FCD31A8416AE682200C9F7A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD31A8316AE682200C9F7A1 /* main.m */; };
+		FCD31A8816AE682200C9F7A1 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD31A8716AE682200C9F7A1 /* SSAppDelegate.m */; };
+		FCD31A8A16AE682200C9F7A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD31A8916AE682200C9F7A1 /* Default.png */; };
+		FCD31A8C16AE682200C9F7A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD31A8B16AE682200C9F7A1 /* Default@2x.png */; };
+		FCD31A8E16AE682200C9F7A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD31A8D16AE682200C9F7A1 /* Default-568h@2x.png */; };
+		FCD31A9116AE682200C9F7A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD31A8F16AE682200C9F7A1 /* MainStoryboard.storyboard */; };
+		FCD31A9416AE682200C9F7A1 /* SimpleStock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD31A9216AE682200C9F7A1 /* SimpleStock.xcdatamodeld */; };
+		FCD31A9716AE682200C9F7A1 /* SSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD31A9616AE682200C9F7A1 /* SSMasterViewController.m */; };
+		FCD31A9A16AE682200C9F7A1 /* SSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD31A9916AE682200C9F7A1 /* SSDetailViewController.m */; };
+		FCD31AA216AE682200C9F7A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31AA116AE682200C9F7A1 /* SenTestingKit.framework */; };
+		FCD31AA316AE682200C9F7A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7516AE682200C9F7A1 /* UIKit.framework */; };
+		FCD31AA416AE682200C9F7A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7716AE682200C9F7A1 /* Foundation.framework */; };
+		FCD31AA516AE682200C9F7A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD31A7B16AE682200C9F7A1 /* CoreData.framework */; };
+		FCD31AAD16AE682200C9F7A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD31AAB16AE682200C9F7A1 /* InfoPlist.strings */; };
+		FCD31AB016AE682200C9F7A1 /* SimpleStockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD31AAF16AE682200C9F7A1 /* SimpleStockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD31AA616AE682200C9F7A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD31A6816AE682200C9F7A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD31A7016AE682200C9F7A1;
+			remoteInfo = SimpleStock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC9CFFC716AE6EAA00D45F74 /* Stock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
+		FC9CFFC816AE6EAA00D45F74 /* Stock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
+		FC9CFFCB16AE701A00D45F74 /* SSStockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSStockViewController.h; sourceTree = "<group>"; };
+		FC9CFFCC16AE701A00D45F74 /* SSStockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSStockViewController.m; sourceTree = "<group>"; };
+		FCD31A7116AE682200C9F7A1 /* SimpleStock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD31A7516AE682200C9F7A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCD31A7716AE682200C9F7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCD31A7916AE682200C9F7A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCD31A7B16AE682200C9F7A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FCD31A7F16AE682200C9F7A1 /* SimpleStock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleStock-Info.plist"; sourceTree = "<group>"; };
+		FCD31A8116AE682200C9F7A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCD31A8316AE682200C9F7A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD31A8516AE682200C9F7A1 /* SimpleStock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleStock-Prefix.pch"; sourceTree = "<group>"; };
+		FCD31A8616AE682200C9F7A1 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		FCD31A8716AE682200C9F7A1 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		FCD31A8916AE682200C9F7A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FCD31A8B16AE682200C9F7A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FCD31A8D16AE682200C9F7A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCD31A9016AE682200C9F7A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FCD31A9316AE682200C9F7A1 /* SimpleStock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleStock.xcdatamodel; sourceTree = "<group>"; };
+		FCD31A9516AE682200C9F7A1 /* SSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSMasterViewController.h; sourceTree = "<group>"; };
+		FCD31A9616AE682200C9F7A1 /* SSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSMasterViewController.m; sourceTree = "<group>"; };
+		FCD31A9816AE682200C9F7A1 /* SSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSDetailViewController.h; sourceTree = "<group>"; };
+		FCD31A9916AE682200C9F7A1 /* SSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSDetailViewController.m; sourceTree = "<group>"; };
+		FCD31AA016AE682200C9F7A1 /* SimpleStockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD31AA116AE682200C9F7A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FCD31AAA16AE682200C9F7A1 /* SimpleStockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleStockTests-Info.plist"; sourceTree = "<group>"; };
+		FCD31AAC16AE682200C9F7A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCD31AAE16AE682200C9F7A1 /* SimpleStockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleStockTests.h; sourceTree = "<group>"; };
+		FCD31AAF16AE682200C9F7A1 /* SimpleStockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleStockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD31A6E16AE682200C9F7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD31A7616AE682200C9F7A1 /* UIKit.framework in Frameworks */,
+				FCD31A7816AE682200C9F7A1 /* Foundation.framework in Frameworks */,
+				FCD31A7A16AE682200C9F7A1 /* CoreGraphics.framework in Frameworks */,
+				FCD31A7C16AE682200C9F7A1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD31A9C16AE682200C9F7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD31AA216AE682200C9F7A1 /* SenTestingKit.framework in Frameworks */,
+				FCD31AA316AE682200C9F7A1 /* UIKit.framework in Frameworks */,
+				FCD31AA416AE682200C9F7A1 /* Foundation.framework in Frameworks */,
+				FCD31AA516AE682200C9F7A1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD31A6616AE682200C9F7A1 = {
+			isa = PBXGroup;
+			children = (
+				FCD31A7D16AE682200C9F7A1 /* SimpleStock */,
+				FCD31AA816AE682200C9F7A1 /* SimpleStockTests */,
+				FCD31A7416AE682200C9F7A1 /* Frameworks */,
+				FCD31A7216AE682200C9F7A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD31A7216AE682200C9F7A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD31A7116AE682200C9F7A1 /* SimpleStock.app */,
+				FCD31AA016AE682200C9F7A1 /* SimpleStockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD31A7416AE682200C9F7A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD31A7516AE682200C9F7A1 /* UIKit.framework */,
+				FCD31A7716AE682200C9F7A1 /* Foundation.framework */,
+				FCD31A7916AE682200C9F7A1 /* CoreGraphics.framework */,
+				FCD31A7B16AE682200C9F7A1 /* CoreData.framework */,
+				FCD31AA116AE682200C9F7A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCD31A7D16AE682200C9F7A1 /* SimpleStock */ = {
+			isa = PBXGroup;
+			children = (
+				FCD31A8616AE682200C9F7A1 /* SSAppDelegate.h */,
+				FCD31A8716AE682200C9F7A1 /* SSAppDelegate.m */,
+				FCD31A8F16AE682200C9F7A1 /* MainStoryboard.storyboard */,
+				FCD31A9516AE682200C9F7A1 /* SSMasterViewController.h */,
+				FCD31A9616AE682200C9F7A1 /* SSMasterViewController.m */,
+				FCD31A9816AE682200C9F7A1 /* SSDetailViewController.h */,
+				FCD31A9916AE682200C9F7A1 /* SSDetailViewController.m */,
+				FCD31A9216AE682200C9F7A1 /* SimpleStock.xcdatamodeld */,
+				FC9CFFC716AE6EAA00D45F74 /* Stock.h */,
+				FC9CFFC816AE6EAA00D45F74 /* Stock.m */,
+				FCD31A7E16AE682200C9F7A1 /* Supporting Files */,
+				FC9CFFCB16AE701A00D45F74 /* SSStockViewController.h */,
+				FC9CFFCC16AE701A00D45F74 /* SSStockViewController.m */,
+			);
+			path = SimpleStock;
+			sourceTree = "<group>";
+		};
+		FCD31A7E16AE682200C9F7A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD31A7F16AE682200C9F7A1 /* SimpleStock-Info.plist */,
+				FCD31A8016AE682200C9F7A1 /* InfoPlist.strings */,
+				FCD31A8316AE682200C9F7A1 /* main.m */,
+				FCD31A8516AE682200C9F7A1 /* SimpleStock-Prefix.pch */,
+				FCD31A8916AE682200C9F7A1 /* Default.png */,
+				FCD31A8B16AE682200C9F7A1 /* Default@2x.png */,
+				FCD31A8D16AE682200C9F7A1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD31AA816AE682200C9F7A1 /* SimpleStockTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD31AAE16AE682200C9F7A1 /* SimpleStockTests.h */,
+				FCD31AAF16AE682200C9F7A1 /* SimpleStockTests.m */,
+				FCD31AA916AE682200C9F7A1 /* Supporting Files */,
+			);
+			path = SimpleStockTests;
+			sourceTree = "<group>";
+		};
+		FCD31AA916AE682200C9F7A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD31AAA16AE682200C9F7A1 /* SimpleStockTests-Info.plist */,
+				FCD31AAB16AE682200C9F7A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD31A7016AE682200C9F7A1 /* SimpleStock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD31AB316AE682200C9F7A1 /* Build configuration list for PBXNativeTarget "SimpleStock" */;
+			buildPhases = (
+				FCD31A6D16AE682200C9F7A1 /* Sources */,
+				FCD31A6E16AE682200C9F7A1 /* Frameworks */,
+				FCD31A6F16AE682200C9F7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStock;
+			productName = SimpleStock;
+			productReference = FCD31A7116AE682200C9F7A1 /* SimpleStock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD31A9F16AE682200C9F7A1 /* SimpleStockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD31AB616AE682200C9F7A1 /* Build configuration list for PBXNativeTarget "SimpleStockTests" */;
+			buildPhases = (
+				FCD31A9B16AE682200C9F7A1 /* Sources */,
+				FCD31A9C16AE682200C9F7A1 /* Frameworks */,
+				FCD31A9D16AE682200C9F7A1 /* Resources */,
+				FCD31A9E16AE682200C9F7A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD31AA716AE682200C9F7A1 /* PBXTargetDependency */,
+			);
+			name = SimpleStockTests;
+			productName = SimpleStockTests;
+			productReference = FCD31AA016AE682200C9F7A1 /* SimpleStockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD31A6816AE682200C9F7A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = siglea;
+			};
+			buildConfigurationList = FCD31A6B16AE682200C9F7A1 /* Build configuration list for PBXProject "SimpleStock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCD31A6616AE682200C9F7A1;
+			productRefGroup = FCD31A7216AE682200C9F7A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD31A7016AE682200C9F7A1 /* SimpleStock */,
+				FCD31A9F16AE682200C9F7A1 /* SimpleStockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD31A6F16AE682200C9F7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD31A8216AE682200C9F7A1 /* InfoPlist.strings in Resources */,
+				FCD31A8A16AE682200C9F7A1 /* Default.png in Resources */,
+				FCD31A8C16AE682200C9F7A1 /* Default@2x.png in Resources */,
+				FCD31A8E16AE682200C9F7A1 /* Default-568h@2x.png in Resources */,
+				FCD31A9116AE682200C9F7A1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD31A9D16AE682200C9F7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD31AAD16AE682200C9F7A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCD31A9E16AE682200C9F7A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD31A6D16AE682200C9F7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD31A8416AE682200C9F7A1 /* main.m in Sources */,
+				FCD31A8816AE682200C9F7A1 /* SSAppDelegate.m in Sources */,
+				FCD31A9416AE682200C9F7A1 /* SimpleStock.xcdatamodeld in Sources */,
+				FCD31A9716AE682200C9F7A1 /* SSMasterViewController.m in Sources */,
+				FCD31A9A16AE682200C9F7A1 /* SSDetailViewController.m in Sources */,
+				FC9CFFC916AE6EAA00D45F74 /* Stock.m in Sources */,
+				FC9CFFCD16AE701A00D45F74 /* SSStockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD31A9B16AE682200C9F7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD31AB016AE682200C9F7A1 /* SimpleStockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD31AA716AE682200C9F7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD31A7016AE682200C9F7A1 /* SimpleStock */;
+			targetProxy = FCD31AA616AE682200C9F7A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD31A8016AE682200C9F7A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD31A8116AE682200C9F7A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCD31A8F16AE682200C9F7A1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD31A9016AE682200C9F7A1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD31AAB16AE682200C9F7A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD31AAC16AE682200C9F7A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD31AB116AE682200C9F7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCD31AB216AE682200C9F7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD31AB416AE682200C9F7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStock/SimpleStock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStock/SimpleStock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCD31AB516AE682200C9F7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStock/SimpleStock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStock/SimpleStock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCD31AB716AE682200C9F7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleStock.app/SimpleStock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStock/SimpleStock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStockTests/SimpleStockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FCD31AB816AE682200C9F7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleStock.app/SimpleStock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleStock/SimpleStock-Prefix.pch";
+				INFOPLIST_FILE = "SimpleStockTests/SimpleStockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD31A6B16AE682200C9F7A1 /* Build configuration list for PBXProject "SimpleStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD31AB116AE682200C9F7A1 /* Debug */,
+				FCD31AB216AE682200C9F7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD31AB316AE682200C9F7A1 /* Build configuration list for PBXNativeTarget "SimpleStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD31AB416AE682200C9F7A1 /* Debug */,
+				FCD31AB516AE682200C9F7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD31AB616AE682200C9F7A1 /* Build configuration list for PBXNativeTarget "SimpleStockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD31AB716AE682200C9F7A1 /* Debug */,
+				FCD31AB816AE682200C9F7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCD31A9216AE682200C9F7A1 /* SimpleStock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCD31A9316AE682200C9F7A1 /* SimpleStock.xcdatamodel */,
+			);
+			currentVersion = FCD31A9316AE682200C9F7A1 /* SimpleStock.xcdatamodel */;
+			path = SimpleStock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCD31A6816AE682200C9F7A1 /* Project object */;
+}
