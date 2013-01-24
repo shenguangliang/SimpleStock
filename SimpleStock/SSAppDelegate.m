@@ -24,8 +24,9 @@
     controller.managedObjectContext = self.managedObjectContext;
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-//        [self insertStock];
+        [self insertStock];
     });
+    
     return YES;
 }
 
@@ -34,20 +35,16 @@
 
 - (void)updateStock{
     while (YES) {
-        
+
         NSFetchRequest *fetch = [[NSFetchRequest alloc] initWithEntityName:@"Stock"];
         NSArray *array = [self.managedObjectContext executeFetchRequest:fetch error:NULL];
         
-        
-        
         for (int i = 0; i < [array count]; i++) {
             NSManagedObject *mObject = [array objectAtIndex:i];
-            [mObject setValue:[NSString stringWithFormat:@"RenRen.Inc_%d",i + 1] forKey:@"name"];
+//            [mObject setValue:[NSString stringWithFormat:@"RenRen.Inc_%d",i + 1] forKey:@"name"];
             float random = (float)(arc4random()%100);
             [mObject setValue:[NSNumber numberWithFloat:random] forKey:@"indicator"];
         }
-        
-        
         
         // Save the context.
         NSError *error = nil;
@@ -85,7 +82,7 @@
             abort();
         }
         
-        [NSThread sleepForTimeInterval:3];
+        [NSThread sleepForTimeInterval:1];
     }
    
 
